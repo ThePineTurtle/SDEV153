@@ -55,12 +55,19 @@ h1 {
     font-size: 35px;
 }
 
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 p {
     font-size: 20px;
 }
 
 img {
+    border: 5px solid #123524;
     border-radius: 50px;
+    margin: 7px;
 }
 
 .gallery {
@@ -75,7 +82,7 @@ img {
 }
 
 .gallery:hover img {
-    border: 3px solid #40826D;
+    border: 5px solid #40826D;
 }
 
 .gallery img {
@@ -84,7 +91,7 @@ img {
     max-width: 500px;
     max-height: 500px;
     display: inline-block;
-    border: 3px solid #123524;
+    border: 5px solid #123524;
     border-radius: 50px;
 }
 
